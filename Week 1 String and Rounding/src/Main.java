@@ -57,6 +57,8 @@ public class Main
       DecimalFormat df = new DecimalFormat(".0");
       System.out.println("You spent " + df.format(inputHours) + 
             " hours on your homework.");	
+      
+      //close the scanner class
       in.close();
    }
 }
