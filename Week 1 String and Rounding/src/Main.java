@@ -1,9 +1,8 @@
 /**
  * @author Dan Sedano
  * @version 10/20/19
- * This is the first java program for CST 338
- * This Program will manipulate String variables and
- * use the Decimal formatting class.
+ * This is the first java program for CST 338. This Program will manipulate 
+ * String variables and use the Decimal formatting class.
  **/
 
 import java.text.DecimalFormat;
