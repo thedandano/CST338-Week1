@@ -34,7 +34,7 @@ public class Main
       String lName = in.nextLine();
 
       //Consecrates the first and last name variables.
-      String fullName = fName + " " +lName;	
+      String fullName = fName + " " + lName;	
       System.out.println("\nYour name is: " + fullName);
       System.out.println("The length of your name is: " + (fullName.length()) 
             + " characters (including the space).");
