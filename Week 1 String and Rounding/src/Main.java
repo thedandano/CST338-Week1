@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Main 
 {
-   
+
    //Static Variables
    public static final double MIN_HOURS = 12.0;
    public static final double MAX_HOURS = 20.0;
@@ -23,7 +23,7 @@ public class Main
 
       //Ask for first name input
       System.out.println("Please enter the following with the first letter "
-            + "capitalized.\n");
+         + "capitalized.\n");
 
       //Ask for first name input
       System.out.print("Please enter your first name: ");
@@ -37,7 +37,7 @@ public class Main
       String fullName = fName + " " + lName;	
       System.out.println("\nYour name is: " + fullName);
       System.out.println("The length of your name is: " + (fullName.length()) 
-            + " characters (including the space).");
+         + " characters (including the space).");
 
       //prints in upper and lower case
       System.out.println("I'm yelling your name: " + fullName.toUpperCase());
@@ -45,7 +45,7 @@ public class Main
 
       //formats and prints MIN_HOURS and MAX_HOURS range without decimal
       System.out.printf("\nYou will be spending about %.0f - %.0f "
-            + "hours a week on homework.\n", MIN_HOURS, MAX_HOURS);
+         + "hours a week on homework.\n", MIN_HOURS, MAX_HOURS);
 
       //Asks for hours spent on homework
       System.out.println("How much time did you spend last week?");
@@ -55,8 +55,8 @@ public class Main
       //creates a new decimal format to round up to one tenth
       DecimalFormat df = new DecimalFormat(".0");
       System.out.println("You spent " + df.format(inputHours) + 
-            " hours on your homework.");	
-      
+         " hours on your homework.");	
+
       //close the scanner class
       in.close();
    }
